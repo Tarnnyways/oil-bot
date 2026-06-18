@@ -301,7 +301,7 @@ def handle_message(event):
             filename = generate_excel_report(report_month, report_year)
 
             # 🌟 แก้ไขตรงนี้ครับ (บรรทัดที่ 304-305 ในโค้ดเดิม)
-            PUBLIC_URL = "https://yellow-hats-send.loca.lt"
+            PUBLIC_URL = "https://oil-bot-7pgf.onrender.com"
             download_link = f"{PUBLIC_URL}/download/{filename}"
 
             line_bot_api.reply_message(
